@@ -1,0 +1,669 @@
+# Copyright (C) 2016 Yakadanda Google+ Hangout Events
+# This file is distributed under the same license as the Yakadanda Google+ Hangout Events package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Yakadanda Google+ Hangout Events 0.3.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/yakadanda-google-"
+"hangout-events\n"
+"POT-Creation-Date: 2016-04-23 07:48:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-04-23 14:49+0700\n"
+"Last-Translator: Peter Ricci <peter@agentpoint.com>\n"
+"Language-Team: Yakadanda <peter@agentpoint.com>\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: en US\n"
+
+#: lib/_extras.php:52 lib/_extras.php:54 lib/_extras.php:89
+msgid "All Events"
+msgstr ""
+
+#: lib/_extras.php:52
+msgid "Events"
+msgstr ""
+
+#: lib/_extras.php:57 lib/_page-settings.php:3
+msgid "Settings"
+msgstr ""
+
+#: lib/_extras.php:63 lib/_extras.php:97
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: lib/_extras.php:73
+msgid "Event updated."
+msgstr ""
+
+#: lib/_extras.php:85
+msgid "Extend Event"
+msgstr ""
+
+#: lib/_extras.php:149
+msgid "Settings updated."
+msgstr ""
+
+#: lib/_extras.php:156
+msgid "Calendar identifier not correct or can't empty."
+msgstr ""
+
+#: lib/_extras.php:229
+msgid "Connection to Google API succeeded."
+msgstr ""
+
+#: lib/_extras.php:231
+msgid "Please login as %s."
+msgstr ""
+
+#: lib/_extras.php:253 lib/_page-settings.php:14
+msgid "Setup"
+msgstr ""
+
+#: lib/_extras.php:259
+msgid "Embed Post"
+msgstr ""
+
+#: lib/_extras.php:265
+msgid "Shortcode"
+msgstr ""
+
+#: lib/_extras.php:271
+msgid "Misc"
+msgstr ""
+
+#: lib/_extras.php:278
+msgid "<h1>How to get your Api Key, Client ID, and Client Secret</h1>"
+msgstr ""
+
+#: lib/_extras.php:283
+msgid ""
+"<li>At <a href=\"%s\" target=\"_blank\">https://console.developers.google."
+"com/project</a> create new project.<br/><img src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:286
+msgid ""
+"<li>Fill New Project modal dialog with your suitable information.<br/><img "
+"src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:289
+msgid ""
+"<li>On <u>Overview</u>, click Calendar API link on <strong>Google Apps APIs</"
+"strong> group.<br/><img src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:292
+msgid "<li>Turn on Google Calendar API.<br/><img src=\"%s\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:295
+msgid ""
+"After Google Calendar API enabled, go to <u>Credentials</u> section.<br/"
+"><img src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:297
+msgid "<li>On <u>Credentials</u> section:<br/>"
+msgstr ""
+
+#: lib/_extras.php:298
+msgid "a. Leave API that you are using with the Google Calendar API.<br/>"
+msgstr ""
+
+#: lib/_extras.php:299
+msgid ""
+"b. Select the Web Browser (Javascript) as an API that will be called.<br/>"
+msgstr ""
+
+#: lib/_extras.php:300
+msgid "c. Check the User data as accessing data.<br/>"
+msgstr ""
+
+#: lib/_extras.php:303
+msgid "<li>Setup OAuth 2.0 client ID.<br/>"
+msgstr ""
+
+#: lib/_extras.php:304
+msgid "a. Fill the Name with your suitable information.<br/>"
+msgstr ""
+
+#: lib/_extras.php:307
+msgid "b. The Authorized JavaScript origins with <code>%s</code><br/>"
+msgstr ""
+
+#: lib/_extras.php:310
+msgid "c. And the Authorized redirect URIs with <code>%s</code><br/>"
+msgstr ""
+
+#: lib/_extras.php:314
+msgid "<li>Configure consent screen.<br/>"
+msgstr ""
+
+#: lib/_extras.php:315
+msgid "a. Leave the Email address with your email, or your Google group.<br/>"
+msgstr ""
+
+#: lib/_extras.php:316
+msgid "b. Just fill the Product name with your appropriate information.<br/>"
+msgstr ""
+
+#: lib/_extras.php:321
+msgid ""
+"<li>Congratulation, your OAuth 2.0 client ID have created, click I'll do "
+"this later link to continue.<br/><img src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:324
+msgid ""
+"<li>Still on <u>Credentials</u> section, click your OAuth 2.0 client ID to "
+"get your Client ID, and Client Secret.<br/><img src=\"%s\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:326
+msgid "Your client ID and your Client Secret.<br/>"
+msgstr ""
+
+#: lib/_extras.php:331
+msgid "<li>Go back to <u>Credentials</u> section.<br/><img src=\"%s\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:334
+msgid ""
+"Open Create credentials dropdown, and then click API key.<br/><img src=\"%s"
+"\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:337
+msgid "Asking API key, choose Server key.<br/><img src=\"%s\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:340
+msgid ""
+"Fill server API key name as you wish and leave the IP address field blank to "
+"make any IPs allowed.<br/><img src=\"%s\"/><br/>"
+msgstr ""
+
+#: lib/_extras.php:343
+msgid "Your API key.<br/><img src=\"%s\"/></li>"
+msgstr ""
+
+#: lib/_extras.php:345
+msgid "<li>Well done, now you have Client ID, Client secret, and API key.</li>"
+msgstr ""
+
+#: lib/_extras.php:356
+msgid "<h1>Adding The Embed Post</h1>"
+msgstr ""
+
+#: lib/_extras.php:360
+msgid ""
+"<p>Locate the post that you want to embed on <a href=\"%s\" target=\"_blank"
+"\">Google+</a> and click the <img src=\"%s\" title=\"A downward pointing "
+"arrow that indicates the menu\" alt=\"A downward pointing arrow that "
+"indicates the menu\"/> menu icon and choose Embed post.</p>"
+msgstr ""
+
+#: lib/_extras.php:365
+msgid "<p>Copy the tag <code>%s</code> to post or page.</p>"
+msgstr ""
+
+#: lib/_extras.php:370
+msgid ""
+"<p>For more detail you can look at <a href=\"%s\" target=\"_blank\">https://"
+"developers.google.com/+/web/embedded-post/</a>.</p>"
+msgstr ""
+
+#: lib/_extras.php:380
+msgid "Examples"
+msgstr ""
+
+#: lib/_extras.php:398
+msgid "Attributes"
+msgstr ""
+
+#: lib/_extras.php:400
+msgid ""
+"<tr><td style=\"vertical-align: top;\">type</td><td style=\"vertical-align: "
+"top;\">=</td><td><span>all</span>, <span>normal</span>, or <span>hangout</"
+"span>, by default type is <span>all</span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:401
+msgid ""
+"<tr><td style=\"vertical-align: top;\">src</td><td style=\"vertical-align: "
+"top;\">=</td><td><span>all</span>, <span>gcal</span> (event from calendar), "
+"or <span>gplus</span> (event from google+), by default source is <span>all</"
+"span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:402
+msgid ""
+"<tr><td style=\"vertical-align: top;\">limit</td><td style=\"vertical-align: "
+"top;\">=</td><td>number of events to display (maximum is <span>20</span>)</"
+"td></tr>"
+msgstr ""
+
+#: lib/_extras.php:403
+msgid ""
+"<tr><td style=\"vertical-align: top;\">past</td><td style=\"vertical-align: "
+"top;\">=</td><td>number of months to display past events in <span>X</span> "
+"months ago, by default past is false</td></tr>"
+msgstr ""
+
+#: lib/_extras.php:404
+msgid ""
+"<tr><td style=\"vertical-align: top;\">author</td><td style=\"vertical-"
+"align: top;\">=</td><td><span>self</span>, <span>other</span>, or <span>all</"
+"span>, by default author is <span>all</span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:407
+msgid ""
+"<tr><td style=\"vertical-align: top;\">id</td><td style=\"vertical-align: "
+"top;\">=</td><td>Event identifier (string). Single Event Example: <a href="
+"\"%s\" target=\"_blank\">https://plus.google.com/u/0/events/"
+"c<strong>snlc77gi4v519jom5gb28217so</strong></a> To create a single event "
+"you would place in shortcode <code>[google+events id="
+"\"snlc77gi4v519jom5gb28217so\"]</code></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:409
+msgid ""
+"<tr><td style=\"vertical-align: top;\">filter_out</td><td style=\"vertical-"
+"align: top;\">=</td><td>Filter out certain events by event identifiers, "
+"seperated by comma</td></tr>"
+msgstr ""
+
+#: lib/_extras.php:410
+msgid ""
+"<tr><td style=\"vertical-align: top;\">search</td><td style=\"vertical-"
+"align: top;\">=</td><td>Text search terms (string) to display events that "
+"match these terms in any field, except for extended properties</td></tr>"
+msgstr ""
+
+#: lib/_extras.php:411
+msgid ""
+"<tr><td style=\"vertical-align: top;\">attendees</td><td style=\"vertical-"
+"align: top;\">=</td><td>Events can have attendees, the value can be "
+"<span>show</span>, <span>show_all</span>, or <span>hide</span>, the default "
+"value for attendees attribute is <span>hide</span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:414
+msgid ""
+"<tr><td style=\"vertical-align: top;\">timezone</td><td style=\"vertical-"
+"align: top;\">=</td><td>Time zone used in the response, optional. Default is "
+"time zone based on location (hangout event not have location) if not have "
+"location it will use google account/calendar time zone. Supported time zones "
+"at <a href=\"%s\" target=\"_blank\">http://www.php.net/manual/en/timezones."
+"php</a> (string)</td></tr>"
+msgstr ""
+
+#: lib/_extras.php:416
+msgid ""
+"<tr><td style=\"vertical-align: top;\">countdown</td><td style=\"vertical-"
+"align: top;\">=</td><td><span>true</span>, or <span>false</span>, by default "
+"countdown is <span>false</span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:417
+msgid ""
+"<tr><td style=\"vertical-align: top;\">visibility</td><td style=\"vertical-"
+"align: top;\">=</td><td>Show event based on visibility. Visibilty can "
+"<span>public</span>, <span>private</span>, or <span>all</span>, default is "
+"<span>public</span></td></tr>"
+msgstr ""
+
+#: lib/_extras.php:427
+msgid "<h1>Miscellaneous</h1>"
+msgstr ""
+
+#: lib/_extras.php:429
+msgid "How to change default style to your preferences?"
+msgstr ""
+
+#: lib/_extras.php:430
+msgid ""
+"Use <u>wp-content/plugins/yakadanda-google-hangout-events/build/css/google-"
+"hangout-events.css</u> file as reference. Copy that file to your <u>/wp-"
+"content/themes/active-theme/css/</u> folder as <em>google-hangout-events."
+"css</em>"
+msgstr ""
+
+#: lib/_extras.php:432
+msgid "How to find event identifier to create a single event shortcode?"
+msgstr ""
+
+#: lib/_extras.php:433
+msgid ""
+"Single Event Example: <a href=\"https://plus.google.com/u/0/events/"
+"csnlc77gi4v519jom5gb28217so\" target=\"_blank\">https://plus.google.com/u/0/"
+"events/c<strong>snlc77gi4v519jom5gb28217so</strong></a><br/>"
+msgstr ""
+
+#: lib/_extras.php:434
+msgid ""
+"The random letters and numbers after <em>***.com/u/0/events/c</em> is an "
+"event id, so the event identifier will be <em>snlc77gi4v519jom5gb28217so</"
+"em> without first letter 'c'.<br/>"
+msgstr ""
+
+#: lib/_extras.php:435
+msgid ""
+"To create a single event you would place in shortcode <code>[google+events "
+"id=\"snlc77gi4v519jom5gb28217so\"]</code>"
+msgstr ""
+
+#: lib/_extras.php:580
+msgid "Settings restored to default settings."
+msgstr ""
+
+#: lib/_list-table.php:37
+msgid ""
+"<a href=\"?page=%s&action=%s&id=%s\" class=\"cta--secondary\">Extend</a>"
+msgstr ""
+
+#: lib/_list-table.php:38
+msgid ""
+"<a href=\"?page=%s&action=%s&id=%s\" class=\"cta--secondary\">Delete</a>"
+msgstr ""
+
+#: lib/_list-table.php:39
+msgid "<a href=\"%s\" class=\"cta--secondary\">View</a>"
+msgstr ""
+
+#: lib/_list-table.php:62 lib/_page-settings.php:56
+msgid "Title"
+msgstr ""
+
+#: lib/_list-table.php:63
+msgid "Author"
+msgstr ""
+
+#: lib/_list-table.php:64 lib/_page-events.php:20
+msgid "Time"
+msgstr ""
+
+#: lib/_list-table.php:65 lib/_page-events.php:31
+msgid "Location"
+msgstr ""
+
+#: lib/_list-table.php:66 lib/_page-settings.php:67
+msgid "Date"
+msgstr ""
+
+#: lib/_page-events.php:16
+msgid "Event Title"
+msgstr ""
+
+#: lib/_page-events.php:35
+msgid "Description"
+msgstr ""
+
+#: lib/_page-events.php:39
+msgid "Extend"
+msgstr ""
+
+#: lib/_page-events.php:42
+msgid "Upload Image"
+msgstr ""
+
+#: lib/_page-events.php:43
+msgid ""
+"Enter the image location or upload an image from your computer and click "
+"Insert into Post button."
+msgstr ""
+
+#: lib/_page-events.php:49
+msgid "Save"
+msgstr ""
+
+#: lib/_page-settings.php:15
+msgid "Widget"
+msgstr ""
+
+#: lib/_page-settings.php:16
+msgid "Cache"
+msgstr ""
+
+#: lib/_page-settings.php:19
+msgid ""
+"Get your api key, client id, and client secret at <a href=\"%s\" target="
+"\"_blank\" class=\"cta\">Google Developers Console</a>. For more details see "
+"<a id=\"googleplushangoutevent-help-tab\" href=\"#\">Setup section</a> on "
+"Help tab above."
+msgstr ""
+
+#: lib/_page-settings.php:22
+msgid "Calendar ID"
+msgstr ""
+
+#: lib/_page-settings.php:25
+msgid "Connected."
+msgstr ""
+
+#: lib/_page-settings.php:27 lib/_shortcodes.php:239 lib/_widgets.php:568
+msgid "Not Connected."
+msgstr ""
+
+#: lib/_page-settings.php:29
+msgid "Calendar identifier, e.g. your_name@gmail.com"
+msgstr ""
+
+#: lib/_page-settings.php:32
+msgid "API Key"
+msgstr ""
+
+#: lib/_page-settings.php:36
+msgid "Client ID"
+msgstr ""
+
+#: lib/_page-settings.php:40
+msgid "Client Secret"
+msgstr ""
+
+#: lib/_page-settings.php:48
+msgid "Widget Border"
+msgstr ""
+
+#: lib/_page-settings.php:52
+msgid "Widget Background"
+msgstr ""
+
+#: lib/_page-settings.php:78
+msgid "Main Text"
+msgstr ""
+
+#: lib/_page-settings.php:89
+msgid "Buttons Border"
+msgstr ""
+
+#: lib/_page-settings.php:93
+msgid "Buttons Background"
+msgstr ""
+
+#: lib/_page-settings.php:97
+msgid "Buttons Hover"
+msgstr ""
+
+#: lib/_page-settings.php:101
+msgid "Buttons Text"
+msgstr ""
+
+#: lib/_page-settings.php:112
+msgid "Countdown Background"
+msgstr ""
+
+#: lib/_page-settings.php:116
+msgid "Countdown Text"
+msgstr ""
+
+#: lib/_page-settings.php:127
+msgid "View Event Button Background"
+msgstr ""
+
+#: lib/_page-settings.php:131
+msgid "View Event Button Hover"
+msgstr ""
+
+#: lib/_page-settings.php:135
+msgid "View Event Button Text"
+msgstr ""
+
+#: lib/_page-settings.php:148
+msgid "Set cache system with expiration time."
+msgstr ""
+
+#: lib/_page-settings.php:152 lib/_page-settings.php:156
+msgid "Transient"
+msgstr ""
+
+#: lib/_page-settings.php:160
+msgid "On"
+msgstr ""
+
+#: lib/_page-settings.php:165
+msgid "Off"
+msgstr ""
+
+#: lib/_page-settings.php:171
+msgid "Expiration"
+msgstr ""
+
+#: lib/_page-settings.php:173
+msgid "The maximum of minutes to keep the data before refreshing."
+msgstr ""
+
+#: lib/_page-settings.php:180
+msgid "Save Changes"
+msgstr ""
+
+#: lib/_page-settings.php:181
+msgid "Logout"
+msgstr ""
+
+#: lib/_page-settings.php:183
+msgid "Save and Connect"
+msgstr ""
+
+#: lib/_page-settings.php:185
+msgid "Reset"
+msgstr ""
+
+#: lib/_page-settings.php:191
+msgid "These will also disconnect from Google API if connected. Are you sure?"
+msgstr ""
+
+#: lib/_shortcodes.php:236
+msgid "No event and hangout event yet."
+msgstr ""
+
+#: lib/_shortcodes.php:237
+msgid "No event yet."
+msgstr ""
+
+#: lib/_shortcodes.php:238 lib/_widgets.php:573
+msgid "No hangout event yet."
+msgstr ""
+
+#: lib/_widgets.php:12
+msgid "A countdown function to time of the Google+ Event"
+msgstr ""
+
+#: lib/_widgets.php:104 lib/_widgets.php:319
+msgid "Event"
+msgstr ""
+
+#: lib/_widgets.php:111 lib/_widgets.php:330
+msgid "View Event on Google+"
+msgstr ""
+
+#: lib/_widgets.php:154 lib/_widgets.php:371
+msgid "Title:"
+msgstr ""
+
+#: lib/_widgets.php:158 lib/_widgets.php:375
+msgid "Author:"
+msgstr ""
+
+#: lib/_widgets.php:160 lib/_widgets.php:168 lib/_widgets.php:200
+#: lib/_widgets.php:377 lib/_widgets.php:409
+msgid "All"
+msgstr ""
+
+#: lib/_widgets.php:161 lib/_widgets.php:378
+msgid "Self"
+msgstr ""
+
+#: lib/_widgets.php:162 lib/_widgets.php:379
+msgid "Other"
+msgstr ""
+
+#: lib/_widgets.php:166
+msgid "Source:"
+msgstr ""
+
+#: lib/_widgets.php:169
+msgid "Google Calendar"
+msgstr ""
+
+#: lib/_widgets.php:174 lib/_widgets.php:383
+msgid "Display:"
+msgstr ""
+
+#: lib/_widgets.php:184 lib/_widgets.php:393
+msgid "Visibility:"
+msgstr ""
+
+#: lib/_widgets.php:192 lib/_widgets.php:401
+msgid "Countdown:"
+msgstr ""
+
+#: lib/_widgets.php:195 lib/_widgets.php:404
+msgid "First only"
+msgstr ""
+
+#: lib/_widgets.php:205 lib/_widgets.php:414
+msgid "None"
+msgstr ""
+
+#: lib/_widgets.php:209 lib/_widgets.php:418
+msgid "Timezone:"
+msgstr ""
+
+#: lib/_widgets.php:229
+msgid "A countdown function to time of the Google+ Hangout"
+msgstr ""
+
+#: lib/_widgets.php:320
+msgid "Hangout"
+msgstr ""
+
+#: lib/_widgets.php:322
+msgid "On Air"
+msgstr ""
+
+#: lib/_widgets.php:741
+msgid "Location/Calendar timezone (default)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Yakadanda Google+ Hangout Events"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.yakadanda.com/plugins/yakadanda-google-hangout-events/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A countdown function to time of the Google+ Hangout Events."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Peter Ricci"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.yakadanda.com/"
+msgstr ""
